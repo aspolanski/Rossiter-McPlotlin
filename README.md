@@ -9,20 +9,30 @@ user@machine:~/Rossiter-McPlotlin$ python rossiter_mcplotlin -f example.conf
 
 ## Configuration File Formating
 
-```console
+```text
 [Stellar and System Parameters]
-planets: b,c           ; planets in the system to be plotted
-u0: 0.5                ; quadtratic limb darkening parameter
-u1: 0.5                ; quadtratic limb darkening parameter
-inc: 75                ; stellar inclination
-vsini: 2               ; stellar projected velocity
+# planets in the system to be plotted
+# quadtratic limb darkening parameter
+# quadtratic limb darkening parameter
+# stellar inclination
+# stellar projected velocity
+planets: b,c           
+u0: 0.5                
+u1: 0.5                
+inc: 75
+vsini: 2
 
 [Planet Parameters]
-rprs_b: 0.017          ; Planet/star radius ratio
-inc_b: 87              ; Planet inclination
-imp_b: 0.18            ; Planet impact parameter
-lam_b = -6             ; Projected obliquity
-lam_err_b = 2,3        ; Projected obliquity uncertainties 
+# Planet/star radius ratio
+# Planet inclination
+# Planet impact parameter
+# Projected obliquity
+# Projected obliquity uncertainties 
+rprs_b: 0.017          
+inc_b: 87              
+imp_b: 0.18            
+lam_b = -6             
+lam_err_b = 2,3        
 
 rprs_c: 0.03
 inc_c: 89
