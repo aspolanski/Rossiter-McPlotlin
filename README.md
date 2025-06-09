@@ -1,6 +1,13 @@
-# Rossiter-McPlottin
+# Rossiter-McPlotlin
 A minimal-dependecy package for visualizing orbital geometries for the Rossiter-Mclaughlin effect.
 (no starry installation needed!)
+
+## Command Line Useage
+```console
+user@machine:~/Rossiter-McPlotlin$ python rossiter_mcplotlin -f example.conf
+```
+
+## Configuration File Formating
 
 
 
