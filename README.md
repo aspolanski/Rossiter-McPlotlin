@@ -19,7 +19,7 @@ user@machine:~/Rossiter-McPlotlin$ python rossiter_mcplotlin -f example.conf
 planets: b,c           
 u0: 0.5                
 u1: 0.5                
-inc: 75
+inc: 90
 vsini: 2
 
 [Planet Parameters]
