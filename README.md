@@ -4,7 +4,7 @@ A minimal-dependecy package for visualizing orbital geometries for the Rossiter-
 
 ## Command Line Useage
 ```console
-user@machine:~/Rossiter-McPlotlin$ python rossiter_mcplotlin -f example.conf
+user@machine:~/Rossiter-McPlotlin$ python rossiter_mcplotlin.py -f example.ini
 ```
 
 ## Configuration File Formating
@@ -49,8 +49,16 @@ color_b: black
 color_c: green
 dpi: 300
 format: png
-title_on: True
+title_on: True 
 title: HD 3167
 ```
 
 <img src="https://github.com/aspolanski/Rossiter-McPlottin/blob/main/toi1759_rm.png" width="400" height="400" />
+
+
+### To-dos
+
+- [ ] Provide animation options
+- [ ] More plotting options
+
+
