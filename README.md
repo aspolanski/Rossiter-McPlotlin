@@ -53,7 +53,7 @@ title_on: True
 title: HD 3167
 ```
 
-<img src="https://github.com/aspolanski/Rossiter-McPlottin/blob/main/toi1759_rm.png" width="400" height="400" />
+<img src="https://github.com/aspolanski/Rossiter-McPlottin/blob/main/example.png" width="400" height="400" />
 
 
 ### To-dos
